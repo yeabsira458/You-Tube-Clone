@@ -1,0 +1,48 @@
+.sidebar{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  top:55px;
+  background-color:white;
+  width:72px;
+}
+.home{
+   height:10px;
+  margin-left:12px;
+  margin-right:12px;
+  width:45px;
+  box-align:center;
+}
+.explore-icon{
+  height: 20px;
+  width:0px;
+ vertical-align: center;
+ horizontal-align:center;
+}
+.home-icon{
+  width:10px;
+  height:10px;
+}
+.sidebar-link{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+  height:74px;
+  flex-direction:column;
+  z-index:200;
+  padding-top:5px;
+  cursor:pointer;
+}
+.sidebar-link:hover{
+  
+background-color:rgb(235, 234, 234);
+}
+.sidebar-link img{
+  height:24px;
+  margin-bottom:4px;
+}
+.sidebar-link div{
+  font-family:roboto,arial;
+  font-size:10px;
+
+}
